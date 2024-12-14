@@ -19,7 +19,7 @@ forms.forEach((form) => {
 
     input.setAttribute(
       'placeholder',
-      inputName.charAt(0).toUpperCase() + inputName.slice(1),
+      inputName.charAt(0).toUpperCase() + inputName.slice(1).toLowerCase,
     );
   });
 });
